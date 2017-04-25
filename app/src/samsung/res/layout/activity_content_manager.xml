@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <!-- ############################################## -->
+        <!-- Ads Update -->
+        <!-- ############################################## -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/view_padding_xxx_wide"
+            android:text="Ads"
+            android:textAllCaps="true"
+            android:textStyle="bold"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/view_padding_small"
+            android:background="#8CCC"/>
+
+        <Button
+            android:id="@+id/btn_ads_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Check &amp; Update Ads"/>
+
+        <TextView
+            android:id="@+id/txt_ads_last_checked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/view_padding"
+            android:text="Last checked: -"
+            />
+
+        <TextView
+            android:id="@+id/txt_ads_last_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/view_padding"/>
+
+
+        <!-- ############################################## -->
+        <!-- News Update -->
+        <!-- ############################################## -->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="@dimen/view_padding_xxx_wide"-->
+            <!--android:text="News"-->
+            <!--android:textAllCaps="true"-->
+            <!--android:textStyle="bold"/>-->
+
+        <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="1dp"-->
+            <!--android:layout_marginTop="@dimen/view_padding_small"-->
+            <!--android:background="#8CCC"/>-->
+
+        <!--<Button-->
+            <!--android:id="@+id/btn_news_update"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Check &amp; Update News"/>-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/txt_news_last_checked"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:padding="@dimen/view_padding"-->
+            <!--android:text="Last checked: -"-->
+            <!--/>-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/txt_news_last_update"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:padding="@dimen/view_padding"/>-->
+
+        <!-- ############################################## -->
+        <!-- Upload URL -->
+        <!-- ############################################## -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/view_padding_xxx_wide"
+            android:text="Reporting"
+            android:textAllCaps="true"
+            android:textStyle="bold"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/view_padding_small"
+            android:background="#8CCC"/>
+
+        <Button
+            android:id="@+id/btnGenerateReports"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Generate Stats"/>
+
+        <Button
+            android:id="@+id/btnUploadReports"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Upload Stats"/>
+
+        <TextView
+            android:id="@+id/txt_last_upload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/view_padding"/>
+
+        <!-- ############################################## -->
+        <!-- PING -->
+        <!-- ############################################## -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/view_padding_xxx_wide"
+            android:text="Ping"
+            android:textAllCaps="true"
+            android:textStyle="bold"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/view_padding_small"
+            android:background="#8CCC"/>
+
+        <Button
+            android:id="@+id/btnSettingPanelPing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ping Test"/>
+
+        <TextView
+            android:id="@+id/txt_last_ping"
+            tools:text="Last Ping History"
+            android:padding="@dimen/view_padding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- ############################################## -->
+        <!-- Settings -->
+        <!-- ############################################## -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/view_padding_xxx_wide"
+            android:text="Settings"
+            android:textAllCaps="true"
+            android:textStyle="bold"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/view_padding_small"
+            android:background="#8CCC"/>
+
+        <Button
+            android:id="@+id/btn_device_admin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Set as Device Admin"/>
+
+        <Button
+            android:id="@+id/btn_toggle_kiosk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btn_update_settings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update Settings"/>
+
+        <TextView
+            android:id="@+id/txt_settings_last_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/view_padding"/>
+
+        <!-- ############################################## -->
+        <!-- APK -->
+        <!-- ############################################## -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/view_padding_xxx_wide"
+            android:text="APK"
+            android:textAllCaps="true"
+            android:textStyle="bold"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/view_padding_small"
+            android:background="#8CCC"/>
+
+        <Button
+            android:id="@+id/btn_update_apk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update APK"/>
+
+        <TextView
+            android:id="@+id/txt_apk_last_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/view_padding"/>
+
+        <!-- ############################################## -->
+        <!-- Initial Setup -->
+        <!-- ############################################## -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/view_padding_xxx_wide"
+            android:text="Setup"
+            android:textAllCaps="true"
+            android:textStyle="bold"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/view_padding_small"
+            android:background="#8CCC"/>
+
+        <Button
+            android:id="@+id/btn_initial_setup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Original Default"/>
+
+        <TextView
+            android:id="@+id/txt_last_setup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/view_padding"/>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/view_padding_wide">
+
+    <ImageView
+        android:id="@id/imgContent"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:scaleType="centerCrop"
+        tools:ignore="ContentDescription"/>
+
+    <View
+        android:layout_toRightOf="@id/imgContent"
+        android:layout_alignBottom="@id/imgContent"
+        android:layout_marginLeft="@dimen/view_padding_wide"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#2000"/>
+
+    <TextView
+        android:id="@id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imgContent"
+        android:maxLines="2"
+        android:layout_marginTop="@dimen/view_padding"
+        android:layout_marginLeft="@dimen/view_padding_wide"
+        android:layout_marginBottom="@dimen/view_padding_half"
+        android:textColor="#212121"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textStyle="normal"
+        tools:text="Ditemukan Mayat"/>
+
+    <TextView
+        android:id="@id/txtTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtTitle"
+        android:layout_alignLeft="@id/txtTitle"
+        tools:text="16 Decemeber 2012"
+        android:textColor="#757575"/>
+
+    <TextView
+        android:id="@id/txtCaption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/txtTitle"
+        android:layout_below="@id/txtTime"
+        android:textColor="@color/blue"
+        tools:text="www.kompas.com"
+        android:layout_marginTop="@dimen/view_padding_half"/>
+
+</RelativeLayout>

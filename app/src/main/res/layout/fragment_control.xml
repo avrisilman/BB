@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true"
+    android:background="#FFFFFF"
+    android:paddingLeft="@dimen/view_padding"
+    android:paddingRight="@dimen/view_padding"
+    tools:ignore="ContentDescription">
+
+    <ImageView
+        android:id="@id/imgContent"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/btn_volume_selector"
+        android:padding="@dimen/view_padding"
+        android:src="@drawable/ic_visibility_off_white_24dp"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignLeft="@id/imgContent"
+        android:layout_alignRight="@id/imgContent"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textColor="@color/white"
+        tools:text="12"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/imgContent"
+        android:orientation="horizontal"
+        android:baselineAligned="false">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@id/btnBrightnessDown"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/btn_volume_selector"
+                android:padding="@dimen/view_padding"
+                android:src="@drawable/ic_brightness_low_white_24dp"
+                tools:ignore="ContentDescription"/>
+
+            <SeekBar
+                android:id="@id/seekBarBrightness"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/view_padding"
+                android:layout_marginRight="@dimen/view_padding"
+                android:layout_weight="1"/>
+
+            <ImageButton
+                android:id="@id/btnBrightnessUp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/btn_volume_selector"
+                android:padding="@dimen/view_padding"
+                android:src="@drawable/ic_brightness_high_white_24dp"
+                tools:ignore="ContentDescription"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/view_padding"
+            android:background="#8C8C8C"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@id/btnVolumeDown"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/btn_volume_selector"
+                android:padding="@dimen/view_padding"
+                android:src="@drawable/shape1"
+                tools:ignore="ContentDescription"/>
+
+            <SeekBar
+                android:id="@id/seekBarVolume"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/view_padding"
+                android:layout_marginRight="@dimen/view_padding"/>
+
+            <ImageButton
+                android:id="@id/btnVolumeUp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/btn_volume_selector"
+                android:padding="@dimen/view_padding"
+                android:src="@drawable/shape2"
+                tools:ignore="ContentDescription"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txt_stop"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@color/color_dark_transparent"
+            android:text="STOP"
+            android:visibility="gone"
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>

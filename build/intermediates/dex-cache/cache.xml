@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/ITE-iTaxi/app/build/intermediates/exploded-aar/com.android.support/design/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26384be22ddc74cfe197ebda9edbc7d1fd8bd537">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/com.android.support-design-25.0.0_9b7354a1dfc4de7b77087e62b7664868e4e56507/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/.gradle/caches/modules-2/files-2.1/com.jakewharton.hugo/hugo-annotations/1.2.1/b01150795c5cdca1eb7e501bf00f105ff0e31501/hugo-annotations-1.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b01150795c5cdca1eb7e501bf00f105ff0e31501">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/hugo-annotations-1.2.1_6d11984f09f4111b80dac9de773fa60097b7909d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.2.1/4e4cfa4adc74521d5966799fa5ab70b733552f68/rxjava-1.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4e4cfa4adc74521d5966799fa5ab70b733552f68">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/rxjava-1.2.1_078752f2e74ab8047ae20a4e5d2ed0817646c872/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjrt/1.8.5/39a8ff2d1f79267907f5573c090b342b040b9682/aspectjrt-1.8.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="39a8ff2d1f79267907f5573c090b342b040b9682">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/aspectjrt-1.8.5_51bd0ad9c98686f4cc3363f241e49003acf43cce/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/.gradle/caches/modules-2/files-2.1/org.greenrobot/eventbus/3.0.0/ddd99896e9569eaababbe81b35d80e1b91c4ad85/eventbus-3.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/eventbus-3.0.0_5a51e643a7907c85bc37a063b03c95d2c4bbc9fc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/ITE-iTaxi/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/com.android.support-support-vector-drawable-25.0.0_3d54eff0b9de652618395b06a91281fa2fbef342/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/ITE-iTaxi/app/build/intermediates/exploded-aar/com.android.support/transition/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0c6d948e6cb9ea6f535d175fb61ba2930719c0e9">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/com.android.support-transition-25.0.0_f04b83ac41e72e117e35ad0eea1b47f915a156b4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/ITE-iTaxi/app/build/intermediates/exploded-aar/com.github.clans/fab/1.6.2/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7e6a161b3796c15fe00755ce47e03067e568ecc4">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/com.github.clans-fab-1.6.2_af972d362fa9e2cb13f12805a4f0430cde5a6e51/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/ITE-iTaxi/app/build/intermediates/exploded-aar/com.jakewharton.threetenabp/threetenabp/1.0.4/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6c689b6b0a0c6219bdd55eec9009b2ea1d33116e">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/com.jakewharton.threetenabp-threetenabp-1.0.4_07088e97ad8cbb0767f56c3c2543c9da51b0fbb7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/ITE-iTaxi/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/com.android.support-support-media-compat-25.0.0_9cfba25d4d6ae899219bb8e0d878b2de76e26dc4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/ITE-iTaxi/app/build/intermediates/exploded-aar/com.android.support/percent/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c796c6602e5fa48f90a81c8ab3b3a21a205d1853">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/com.android.support-percent-25.0.0_257cdbb2b9f69e548d8ee70c2448d4f88199e420/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/ITE-iTaxi/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/com.android.support-support-core-ui-25.0.0_3a0dbf8a80c154d4ac7bd604f73835e9f965b5fa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/.gradle/caches/modules-2/files-2.1/com.squareup.leakcanary/leakcanary-analyzer/1.5/3277b0b0c2ace34a2edb5ddf9d1f67829561fb8f/leakcanary-analyzer-1.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3277b0b0c2ace34a2edb5ddf9d1f67829561fb8f">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/leakcanary-analyzer-1.5_057814446a043e19d7e60e6d2170e94629116759/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.1.0/aa557d71ead91cbf26e0c316a0f593d168303309/converter-gson-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/converter-gson-2.1.0_26d11714d045395a794e87a1ef4239386db96876/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/ITE-iTaxi/app/build/intermediates/exploded-aar/pl.charmas.android/android-reactive-location/0.10/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="473b888e323fd725b5ae1a7e221169d69cf2d158">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/pl.charmas.android-android-reactive-location-0.10_864a539468363a2dde08f5a75b7503d41b153ca0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/ITE-iTaxi/app/build/intermediates/exploded-aar/com.github.inaka/galgo/v1.0.2/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="59b91136618bce60ca2b4831a5234b4230532d93">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/com.github.inaka-galgo-v1.0.2_16242f267051e966c0166c5fb3044b3077f26ab2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/glide-3.7.0_d0caf5cb32c79f1536a037434a5a0d6c4651a38c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/logging-interceptor/3.5.0/94c11f915bfe1aeaa5ef6351ddfbe58bae1ea397/logging-interceptor-3.5.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="94c11f915bfe1aeaa5ef6351ddfbe58bae1ea397">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/logging-interceptor-3.5.0_0edfd5e3ca814ccb9eedf3b6beb5d881e4e0a014/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/ITE-iTaxi/app/build/intermediates/exploded-aar/io.fabric.sdk.android/fabric/1.3.14/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a319fd4d548ba4cc9511561d37109ba922bfbf6a">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/io.fabric.sdk.android-fabric-1.3.14_93d72ddde921cd20526bd0fb40f836fe38b9bcae/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.11.0/840897fcd7223a8143f1d9b6f69714e7be34fd50/okio-1.11.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="840897fcd7223a8143f1d9b6f69714e7be34fd50">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/okio-1.11.0_a2e8153587591a78fcf52bd014938f56ff1047c8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/ITE-iTaxi/app/build/intermediates/incremental-classes/samsung/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1a035cfe74354e43d045462e83bc4c44194a736a">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/instant-run-bootstrap_095dc4cc42254c2e44cfea2ba1efcbe4208fa916/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.0/support-annotations-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/support-annotations-25.0.0_545d9bd19c3fe0c50396268a2d2d1765ef568d56/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.21/139535a69a4239db087de9bab0bee568bf8e0b70/slf4j-api-1.7.21.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="139535a69a4239db087de9bab0bee568bf8e0b70">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/slf4j-api-1.7.21_27c31e96918ab416bbf943977113095904b5e8d5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/ITE-iTaxi/app/build/intermediates/exploded-aar/com.jakewharton.rxbinding/rxbinding/0.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ffc09f4e5bdebe068e5101f587dadc42b60fbfe4">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/com.jakewharton.rxbinding-rxbinding-0.4.0_408100c8a0be2d66eb3501d4da4db7179931a111/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/ITE-iTaxi/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5e497d60f0cb6ce87c458ac5420a46d0fed49bd0">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/com.android.support-recyclerview-v7-25.0.0_2045b77d6c6136261376932e2412f917a922d145/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/.gradle/caches/modules-2/files-2.1/com.squareup.haha/haha/2.0.3/640a438d2d415c056ca6a673ac26b183b044e160/haha-2.0.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="640a438d2d415c056ca6a673ac26b183b044e160">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/haha-2.0.3_7c050735151874490baf9bc6481826d6d66764ec/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/ITE-iTaxi/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8a372c4191f80489770a231f7be4820b204b886a">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/com.android.support-cardview-v7-25.0.0_22865af1026c97656af44ef69fd77ae5e9837974/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/ITE-iTaxi/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/answers/1.3.10/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ed6b455e3dd7bbf1ff31f8df0b41e2f0d87f3ace">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/com.crashlytics.sdk.android-answers-1.3.10_e2fa0c0c95235267e886e79b78c5a9606b8fffbb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/.gradle/caches/modules-2/files-2.1/com.squareup.leakcanary/leakcanary-watcher/1.5/288101b16513158c2923ad3fb6161d1452b65e73/leakcanary-watcher-1.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="288101b16513158c2923ad3fb6161d1452b65e73">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/leakcanary-watcher-1.5_02992fe5f2ca5d356b05708fc39d4d1fa8133fd9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/ITE-iTaxi/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/com.android.support-support-fragment-25.0.0_02ec184a56e436089be00d6e59bd6c0b676129fa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/.gradle/caches/modules-2/files-2.1/commons-cli/commons-cli/1.2/2bf96b7aa8b611c177d329452af1dc933e14501c/commons-cli-1.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2bf96b7aa8b611c177d329452af1dc933e14501c">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/commons-cli-1.2_64e93126a19d9996e957e4a458d8425b50885c70/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/ITE-iTaxi/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/com.android.support-support-compat-25.0.0_cc221d45ea5dd2e90c824d02e2e93b255e52c600/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/ITE-iTaxi/app/build/intermediates/exploded-aar/com.github.felHR85/UsbSerial/4.5/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="cf8f6618922da0b0d6d15d7a954c6b2b76f07bb6">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/com.github.felHR85-UsbSerial-4.5_9683c9f90e226201bdae0aa063026f8653732d0a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/ITE-iTaxi/app/build/intermediates/exploded-aar/com.jakewharton/butterknife/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a07818a1ecabdb149998823429cce555af4b9cba">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/com.jakewharton-butterknife-8.4.0_1bf0e586d90221926568888c6410d41836ebfc11/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/ITE-iTaxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/com.android.support-support-v4-25.0.0_2fe2b1f029d5bed5e146391836a7212e405a01f7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/ITE-iTaxi/app/build/intermediates/exploded-aar/com.trello/rxlifecycle-android/1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5db4505b366d1bdf9c7fe858119c119236cc1c5c">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/com.trello-rxlifecycle-android-1.0_85b3e107c0e782286ca7e66e74a18d143f6be0e8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/ITE-iTaxi/app/build/intermediates/exploded-aar/com.facebook.stetho/stetho/1.4.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26b6f0185cbba8917ba9d9d0bd170f95311622ab">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/com.facebook.stetho-stetho-1.4.1_0df375ea1a705367e75c673b70171b778cf09c3d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/.gradle/caches/modules-2/files-2.1/org.threeten/threetenbp/1.3.2/3383b1b96ab32688073ef99dd7d53b3d03f2ccde/threetenbp-1.3.2-no-tzdb.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3383b1b96ab32688073ef99dd7d53b3d03f2ccde">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/threetenbp-1.3.2-no-tzdb_c4f7d23ad1e6e411bb848e5185dd9c32a63741b1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/ITE-iTaxi/app/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.5/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c7a2672b3122b897a0751f327929ae405ea02bf7">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/com.squareup.leakcanary-leakcanary-android-1.5_55970dd99d4e4a08dffaddea97d58724594ecabb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/.gradle/caches/modules-2/files-2.1/com.github.tony19/apktool-lib/1.4.4-3/1d0125bf578cb30dd192496db56c2d937495248a/apktool-lib-1.4.4-3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1d0125bf578cb30dd192496db56c2d937495248a">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/apktool-lib-1.4.4-3_2239ad7e774dabd9995dc5c19bb69057a6fcd886/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/.gradle/caches/modules-2/files-2.1/com.michaelpardo/activeandroid/3.1.0-SNAPSHOT/4ab7b0182975bc57c49efc5e0b3baa4a10e4ec08/activeandroid-3.1.0-SNAPSHOT.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4ab7b0182975bc57c49efc5e0b3baa4a10e4ec08">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/activeandroid-3.1.0-SNAPSHOT_e8aa51ada8d9ae376f3cbd878b401ef92e20b4d6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/.gradle/caches/modules-2/files-2.1/com.google.dagger/dagger/2.8/55a1aa1cdcfd06b9950ca856e2bc2790e105146a/dagger-2.8.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="55a1aa1cdcfd06b9950ca856e2bc2790e105146a">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/dagger-2.8_4e4c35b97c7c31c4438fad53887c8913326211ae/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/ITE-iTaxi/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/internal_impl-25.0.0_0e683e516d8d691d97d0b06e44c8f07e436e10d1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.4.0/ea392375cf9ff59234a82e7928a204215ccc98cd/butterknife-annotations-8.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/butterknife-annotations-8.4.0_5979f7aba7261a5293feda269bee8432f32b2fed/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/gson-2.7_8ce0e6196da1c0409a205a33db4e064d3e89384c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.1/f7be08ec23c21485b9b5a1cf1654c2ec8c58168d/jsr305-3.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f7be08ec23c21485b9b5a1cf1654c2ec8c58168d">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/jsr305-3.0.1_d92f972953a0329ee479d85dfc22bdabaea5d105/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/ITE-iTaxi/app/libs/license.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7f65770625de34e7f0f104cd258b047ac800785a">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/2/license_f5a54fc66cc4d22d72861c6fcdb979221178b9bd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/ITE-iTaxi/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/beta/1.2.2/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b42cf2134829f715edfa2adaf0ee246631322dba">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/com.crashlytics.sdk.android-beta-1.2.2_7f2d33ff432f754986754254e7084047405d1252/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/.gradle/caches/modules-2/files-2.1/com.hannesdorfmann.mosby/mvp-common/2.0.1/d75c9c5577143f3cf3fd63f61526a551f910b56f/mvp-common-2.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d75c9c5577143f3cf3fd63f61526a551f910b56f">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/mvp-common-2.0.1_b82c3d603a2f5162fa5a43e18d17ff2e40651519/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/ITE-iTaxi/app/build/intermediates/exploded-aar/jp.wasabeef/glide-transformations/2.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="df451c6f391e3e32022fc964ed87bd57a5869128">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/jp.wasabeef-glide-transformations-2.0.1_54193ac1caf884a5f74658b8588d9f64cdb09251/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/ITE-iTaxi/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/com.android.support-support-core-utils-25.0.0_e845449ff3e34ba05dce3a0b58df1ae581011743/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/ITE-iTaxi/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/crashlytics-core/2.3.14/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7ff77725723167163d69439e3fd077bd0899babf">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/com.crashlytics.sdk.android-crashlytics-core-2.3.14_aa92c2a99188fc9837f0be23cb162e4e0e9da65e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/ITE-iTaxi/app/build/intermediates/exploded-aar/io.reactivex/rxandroid/1.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5a2386ad9bfff580b206a7fe305cdccd00798159">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/io.reactivex-rxandroid-1.2.1_ccc9c41e0678b88c5f0668b8263283a9138c9357/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/ITE-iTaxi/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/internal_impl-25.0.0_48f610121f8396a8a370ed835dcfcd9100cf7ba9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.5.0/4b0bb6bfbecbdd42b97ff400af342bfe7f32bc83/okhttp-3.5.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4b0bb6bfbecbdd42b97ff400af342bfe7f32bc83">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/okhttp-3.5.0_1d39077a6a2aac4f9339cbd6068bef3904787ba2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/ITE-iTaxi/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.0.0_a3a5cd5a4b7286ad4bb13f5fc97300a82cfc628f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/adapter-rxjava/2.1.0/693eddc23e87ab13f9cf5001707ce8e7e1d1ff01/adapter-rxjava-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="693eddc23e87ab13f9cf5001707ce8e7e1d1ff01">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/adapter-rxjava-2.1.0_b26c6dca1d64cb44a6909f9f2c81a50b00ce6e84/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/.gradle/caches/modules-2/files-2.1/com.trello/rxlifecycle/1.0/6a38e2cd80f46ecaf6553b2eb5a05eee6d472fdb/rxlifecycle-1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6a38e2cd80f46ecaf6553b2eb5a05eee6d472fdb">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/rxlifecycle-1.0_05772cf5fb97e364f1c32e1313c612a08cb7f4bf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/ITE-iTaxi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/com.android.support-appcompat-v7-25.0.0_153737924226081114a32f4f1bd6a2131c5f4760/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/ITE-iTaxi/app/build/intermediates/exploded-aar/com.jakewharton.hugo/hugo-runtime/1.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2bac9385ea008561a30419c09e9230a8681b3e09">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/com.jakewharton.hugo-hugo-runtime-1.2.1_5d2abc80d62b45cdff95c95a4c3fb0192835d35f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/ITE-iTaxi/app/build/intermediates/exploded-aar/com.hannesdorfmann.mosby/mvp/2.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8d5f68a8fdd8283ea42b20259ae4adad9cbe5e94">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/com.hannesdorfmann.mosby-mvp-2.0.1_184b448a53e5761d893105ac6405fa43a15bce8e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/ITE-iTaxi/app/build/intermediates/incremental-runtime-classes/samsung/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="78dc161b8e7b244821237a5ab025249caa432305">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/instant-run_3aef546f6be4119bfce4772548a7671e05afcca0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/ITE-iTaxi/app/build/intermediates/exploded-aar/com.jakewharton.timber/timber/4.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b5d7ba9e868a9251dca3277fcbf494dc59632eff">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/com.jakewharton.timber-timber-4.3.1_d08d4a9bacbadbe6cc41908e6bf395ba0789839f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/ITE-iTaxi/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/internal_impl-25.0.0_5837bfa775a1ab8b0791b206312bae9e1b86626c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/ITE-iTaxi/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/internal_impl-25.0.0_ce3d5c12b20787ceea90f33977d7caa66e65d57a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/ITE-iTaxi/app/build/intermediates/exploded-aar/com.facebook.stetho/stetho-okhttp3/1.4.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7ff6b36b86cc5d50475d396ee60671200dbe419c">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/com.facebook.stetho-stetho-okhttp3-1.4.1_30f9c327b2ac8518c8292dc25459727b0ee23230/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/ITE-iTaxi/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/internal_impl-25.0.0_2f9fa36450c273f9ecced2bdf714897367d882ca/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/ITE-iTaxi/app/build/intermediates/exploded-aar/com.github.nisrulz/easydeviceinfo-base/2.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3e6d3fa9ccaf44ea93c3904236842c5bfcd0b887">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/com.github.nisrulz-easydeviceinfo-base-2.3.1_21be187e51cd1274f324f52c5efcd59fdb4e688e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/javax.inject-1_9b2edb65be7b74cdb8a3cfdc319b57f793670e87/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/ITE-iTaxi/app/libs/edm.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="023d7f1aa3c099c54893b96aa4c745409d97369c">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/2/edm_5d01ebb59cced4709b03e8e8fbeed4fc25ca7919/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/ITE-iTaxi/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/crashlytics/2.6.5/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="02cc9f2e5899415add52bc716602b6b38e7eeb99">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/com.crashlytics.sdk.android-crashlytics-2.6.5_5a07fca8da15bf446bb1c46680784dff07b7d956/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/ITE-iTaxi/app/build/intermediates/exploded-aar/com.github.nisrulz/easydeviceinfo-common/2.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ce59b0c561ff3dbc487ee975559ddd05642e7b5e">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/com.github.nisrulz-easydeviceinfo-common-2.3.1_94cb2ab452da789eb08385c4a762b5605b5c4f09/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/.gradle/caches/modules-2/files-2.1/com.github.tony19/logback-android-core/1.1.1-6/93117015ae639e6482e4e1ad5f988c3f61d09fe0/logback-android-core-1.1.1-6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="93117015ae639e6482e4e1ad5f988c3f61d09fe0">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/logback-android-core-1.1.1-6_65c622091b2350bb4fd0fa4e2f3cd63b2f4ee755/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/retrofit-2.1.0_0b6247d5e9411f9ca47e78caf1368017fcad1487/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/.gradle/caches/modules-2/files-2.1/com.github.tony19/logback-android-classic/1.1.1-6/614c66c9ece69eef48c65a8558de4fd7266d9f69/logback-android-classic-1.1.1-6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="614c66c9ece69eef48c65a8558de4fd7266d9f69">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/logback-android-classic-1.1.1-6_4660c7c5136b17a7a62ea7a1a3e11cb5adb1e21c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/ITE-iTaxi/app/build/intermediates/exploded-aar/com.github.orhanobut/hawk/1.23/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="38c7a93b97bb39c7b731b6e4900c5830ae1fd935">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/com.github.orhanobut-hawk-1.23_3428603f22bdc7b016315cb32dae078d2db7ae34/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/domikado/ITE-iTaxi/app/build/intermediates/exploded-aar/com.trello/rxlifecycle-components/1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b32c2324baa75a12968b466b74064c49841a0018">
+        <dex dex="/Users/domikado/ITE-iTaxi/app/build/intermediates/transforms/dex/samsung/debug/folders/1000/10/com.trello-rxlifecycle-components-1.0_4d942374911e5c7e7a634dfa13433f0e4f704fe8/classes.dex" />
+    </item>
+
+</items>

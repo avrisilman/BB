@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/opt_refresh"
+          android:title="Refresh" />
+
+    <item android:id="@+id/opt_start"
+          android:title="Vacant Screen" />
+
+    <item android:id="@+id/opt_content_manager"
+          android:title="Content Manager"/>
+</menu>

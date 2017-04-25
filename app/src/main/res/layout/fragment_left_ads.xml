@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.domikado.itaxi.ui.ads.banner.BannerAds
+        android:id="@+id/ads_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!--<com.domikado.itaxi.ui.ads.video.VideoAds-->
+        <!--android:id="@+id/adsVideoView"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_above="@+id/ads_banner_left"-->
+        <!--android:layout_below="@id/ads_top"/>-->
+
+    <AdapterViewFlipper
+        android:id="@+id/video_flipper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </AdapterViewFlipper>
+
+    <com.domikado.itaxi.ui.ads.banner.BannerAds
+        android:id="@+id/ads_banner_left"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_alignParentBottom="true"
+        tools:background="@color/color_black_transparant"/>
+
+    <com.domikado.itaxi.ui.ads.banner.BannerAds
+        android:id="@+id/ads_banner_right"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/ads_banner_left"
+        tools:background="@color/color_black_transparant"/>
+
+</RelativeLayout>

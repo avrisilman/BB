@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.domikado.itaxi">
+
+    <uses-permission android:name="com.domikado.mdm.system.service.permission.ACCESS" />
+
+    <!-- Wifi -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+
+    <!-- Bluetooth-->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!-- Include required permissions for Internet to run-->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <!-- Required to show current location -->
+    <!--<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />-->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <!--Kiosk-->
+    <!--<uses-permission android:name="android.permission.WAKE_LOCK"/>-->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.REORDER_TASKS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission
+        android:name="android.permission.WRITE_SECURE_SETTINGS"
+        tools:ignore="ProtectedPermissions" />
+
+    <application
+        android:name=".TaxiApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme"
+        android:vmSafeMode="true"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+
+        <activity
+            android:name=".ui.ads.LaunchActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="stateAlwaysHidden">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name=".ui.ads.VacantActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="stateAlwaysHidden">
+
+        </activity>
+
+        <activity
+            android:name=".ui.ads.FareActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="stateAlwaysHidden"></activity>
+
+        <activity
+            android:name=".ui.ads.SplashActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="stateAlwaysHidden">
+
+        </activity>
+
+        <activity
+            android:name=".ui.ads.PremiumActivity"
+            android:configChanges="keyboardHidden|keyboard|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="stateAlwaysHidden">
+
+        </activity>
+
+        <activity
+            android:name=".ui.ads.MainActivity"
+            android:configChanges="keyboardHidden|keyboard|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="stateAlwaysHidden">
+
+        </activity>
+
+        <activity
+            android:name=".ui.settings.SettingPanelActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.Toolbar"
+            android:windowSoftInputMode="stateAlwaysHidden"></activity>
+
+        <activity
+            android:name=".ui.settings.ContentManagerActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.Toolbar"
+            android:windowSoftInputMode="stateAlwaysHidden">
+
+        </activity>
+
+        <receiver android:name=".data.receiver.BootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data
+            android:name="AA_DB_VERSION"
+            android:value="1" />
+        <meta-data
+            android:name="AA_MODELS"
+            android:value="
+            com.domikado.itaxi.data.entity.Session,
+            com.domikado.itaxi.data.entity.ads.Placement,
+            com.domikado.itaxi.data.entity.ads.Ads,
+            com.domikado.itaxi.data.entity.ads.CallToAction,
+            com.domikado.itaxi.data.entity.ads.AdsResult,
+            com.domikado.itaxi.data.entity.content.News,
+            com.domikado.itaxi.data.entity.analytics.AdsMetric,
+            com.domikado.itaxi.data.entity.analytics.Volume,
+            com.domikado.itaxi.data.entity.analytics.Rating,
+            com.domikado.itaxi.data.entity.analytics.AdsActionMetric,
+            com.domikado.itaxi.data.entity.analytics.NewsMetric,
+            com.domikado.itaxi.data.entity.analytics.Upload,
+            com.domikado.itaxi.data.entity.analytics.SystemMetric,
+            com.domikado.itaxi.data.entity.analytics.ScreenMetric" />
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="63b3179a46f107eaaccad3dc6dbdf26ca9baf336" />
+
+    </application>
+
+</manifest>

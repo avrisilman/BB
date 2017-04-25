@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.domikado.itaxi.ui.ads.video.VideoAds
+        android:id="@+id/adsVideoViewTitanium"
+        android:layout_width="620dp"
+        android:layout_height="600dp"
+        android:background="@android:color/black" />
+
+    <com.domikado.itaxi.ui.ads.banner.BannerAds
+        android:id="@+id/ads_top"
+        android:layout_width="620dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/adsVideoViewTitanium"/>
+
+</RelativeLayout>

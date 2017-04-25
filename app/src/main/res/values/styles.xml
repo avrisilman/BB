@@ -1,0 +1,42 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowBackground">@null</item>
+    </style>
+
+    <style name="AppTheme.Toolbar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ButtonSetting">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/white</item>
+        <item name="colorControlActivated">@color/colorYellow</item>
+    </style>
+
+    <style name="CustomRatingBar" parent="@android:style/Widget.RatingBar" >
+        <item name="android:numStars">5</item>
+        <item name="android:rating">4.5</item>
+        <item name="android:stepSize">0.5</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">44dip</item>
+        <item name="android:layout_marginLeft">4dip</item>
+        <item name="android:layout_marginTop">4dip</item>
+    </style>
+
+</resources>

@@ -1,0 +1,930 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/view_padding"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?android:attr/listPreferredItemHeight"
+            android:paddingRight="?android:attr/scrollbarSize">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dip"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="6dip"
+                android:layout_marginTop="6dip"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+android:id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="marquee"
+                    android:fadingEdge="horizontal"
+                    android:singleLine="true"
+                    android:text="Device ID"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_device_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@android:id/title"
+                    android:layout_below="@android:id/title"
+                    android:maxLines="4"
+                    android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?android:attr/listPreferredItemHeight"
+            android:paddingRight="?android:attr/scrollbarSize">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dip"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="6dip"
+                android:layout_marginTop="6dip"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+android:id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="marquee"
+                    android:fadingEdge="horizontal"
+                    android:singleLine="true"
+                    android:text="Ping Interval"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_ping_interval"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@android:id/title"
+                    android:layout_below="@android:id/title"
+                    android:maxLines="4"
+                    android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?android:attr/listPreferredItemHeight"
+            android:paddingRight="?android:attr/scrollbarSize">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dip"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="6dip"
+                android:layout_marginTop="6dip"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+android:id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="marquee"
+                    android:fadingEdge="horizontal"
+                    android:singleLine="true"
+                    android:text="Visibility Off"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_visibility_off"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@android:id/title"
+                    android:layout_below="@android:id/title"
+                    android:maxLines="4"
+                    android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?android:attr/listPreferredItemHeight"
+            android:paddingRight="?android:attr/scrollbarSize">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dip"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="6dip"
+                android:layout_marginTop="6dip"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+android:id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="marquee"
+                    android:fadingEdge="horizontal"
+                    android:singleLine="true"
+                    android:text="Day Brightness"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_day_brightness"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@android:id/title"
+                    android:layout_below="@android:id/title"
+                    android:maxLines="4"
+                    android:textAppearance="?android:attr/textAppearanceSmall"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?android:attr/listPreferredItemHeight"
+            android:paddingRight="?android:attr/scrollbarSize">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dip"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="6dip"
+                android:layout_marginTop="6dip"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+android:id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="marquee"
+                    android:fadingEdge="horizontal"
+                    android:singleLine="true"
+                    android:text="Night Brightness"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_night_brightness"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@android:id/title"
+                    android:layout_below="@android:id/title"
+                    android:maxLines="4"
+                    android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?android:attr/listPreferredItemHeight"
+            android:paddingRight="?android:attr/scrollbarSize">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dip"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="6dip"
+                android:layout_marginTop="6dip"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+android:id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="marquee"
+                    android:fadingEdge="horizontal"
+                    android:singleLine="true"
+                    android:text="Initial volume"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_initial_volume"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@android:id/title"
+                    android:layout_below="@android:id/title"
+                    android:maxLines="4"
+                    android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?android:attr/listPreferredItemHeight"
+            android:paddingRight="?android:attr/scrollbarSize">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dip"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="6dip"
+                android:layout_marginTop="6dip"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+android:id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="marquee"
+                    android:fadingEdge="horizontal"
+                    android:singleLine="true"
+                    android:text="Location Update Interval"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_location_update_interval"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@android:id/title"
+                    android:layout_below="@android:id/title"
+                    android:maxLines="4"
+                    android:textAppearance="?android:attr/textAppearanceSmall"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?android:attr/listPreferredItemHeight"
+            android:paddingRight="?android:attr/scrollbarSize">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dip"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="6dip"
+                android:layout_marginTop="6dip"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+android:id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="marquee"
+                    android:fadingEdge="horizontal"
+                    android:singleLine="true"
+                    android:text="Splash Screen Duration"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_splash_screen_duration"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@android:id/title"
+                    android:layout_below="@android:id/title"
+                    android:maxLines="4"
+                    android:textAppearance="?android:attr/textAppearanceSmall"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?android:attr/listPreferredItemHeight"
+            android:paddingRight="?android:attr/scrollbarSize">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dip"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="6dip"
+                android:layout_marginTop="6dip"
+                android:layout_weight="1">
+
+
+                <TextView
+                    android:id="@+android:id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="marquee"
+                    android:fadingEdge="horizontal"
+                    android:singleLine="true"
+                    android:text="Call To Action Show"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_call_to_action_show"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@android:id/title"
+                    android:layout_below="@android:id/title"
+                    android:maxLines="4"
+                    android:textAppearance="?android:attr/textAppearanceSmall"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?android:attr/listPreferredItemHeight"
+            android:paddingRight="?android:attr/scrollbarSize">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dip"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="6dip"
+                android:layout_marginTop="6dip"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+android:id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="marquee"
+                    android:fadingEdge="horizontal"
+                    android:singleLine="true"
+                    android:text="Call To Action Dismiss"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_call_to_action_dismiss"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@android:id/title"
+                    android:layout_below="@android:id/title"
+                    android:maxLines="4"
+                    android:textAppearance="?android:attr/textAppearanceSmall"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?android:attr/listPreferredItemHeight"
+            android:paddingRight="?android:attr/scrollbarSize">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dip"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="6dip"
+                android:layout_marginTop="6dip"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+android:id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="marquee"
+                    android:fadingEdge="horizontal"
+                    android:singleLine="true"
+                    android:text="News Auto Update Interval"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_news_auto_update_interval"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@android:id/title"
+                    android:layout_below="@android:id/title"
+                    android:maxLines="4"
+                    android:textAppearance="?android:attr/textAppearanceSmall"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?android:attr/listPreferredItemHeight"
+            android:paddingRight="?android:attr/scrollbarSize">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dip"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="6dip"
+                android:layout_marginTop="6dip"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+android:id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="marquee"
+                    android:fadingEdge="horizontal"
+                    android:singleLine="true"
+                    android:text="Ads Auto Update Interval"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_ads_auto_update_interval"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@android:id/title"
+                    android:layout_below="@android:id/title"
+                    android:maxLines="4"
+                    android:textAppearance="?android:attr/textAppearanceSmall"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?android:attr/listPreferredItemHeight"
+            android:paddingRight="?android:attr/scrollbarSize">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dip"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="6dip"
+                android:layout_marginTop="6dip"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+android:id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="marquee"
+                    android:fadingEdge="horizontal"
+                    android:singleLine="true"
+                    android:text="Settings Auto Update Interval"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_settings_auto_update_interval"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@android:id/title"
+                    android:layout_below="@android:id/title"
+                    android:maxLines="4"
+                    android:textAppearance="?android:attr/textAppearanceSmall"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?android:attr/listPreferredItemHeight"
+            android:paddingRight="?android:attr/scrollbarSize">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dip"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="6dip"
+                android:layout_marginTop="6dip"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+android:id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="marquee"
+                    android:fadingEdge="horizontal"
+                    android:singleLine="true"
+                    android:text="Analytics Auto Upload Interval"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_analytics_auto_upload_interval"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@android:id/title"
+                    android:layout_below="@android:id/title"
+                    android:maxLines="4"
+                    android:textAppearance="?android:attr/textAppearanceSmall"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?android:attr/listPreferredItemHeight"
+            android:paddingRight="?android:attr/scrollbarSize">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dip"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="6dip"
+                android:layout_marginTop="6dip"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+android:id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="marquee"
+                    android:fadingEdge="horizontal"
+                    android:singleLine="true"
+                    android:text="Log Auto Upload Interval"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_log_auto_upload_interval"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@android:id/title"
+                    android:layout_below="@android:id/title"
+                    android:maxLines="4"
+                    android:textAppearance="?android:attr/textAppearanceSmall"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?android:attr/listPreferredItemHeight"
+            android:paddingRight="?android:attr/scrollbarSize">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dip"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="6dip"
+                android:layout_marginTop="6dip"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+android:id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="marquee"
+                    android:fadingEdge="horizontal"
+                    android:singleLine="true"
+                    android:text="Banner Slide Interval"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_banner_slide_interval"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@android:id/title"
+                    android:layout_below="@android:id/title"
+                    android:maxLines="4"
+                    android:textAppearance="?android:attr/textAppearanceSmall"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?android:attr/listPreferredItemHeight"
+            android:paddingRight="?android:attr/scrollbarSize">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dip"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="6dip"
+                android:layout_marginTop="6dip"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+android:id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="marquee"
+                    android:fadingEdge="horizontal"
+                    android:singleLine="true"
+                    android:text="Idle Time Before Shutdown"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_idle_time_before_shutdown"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@android:id/title"
+                    android:layout_below="@android:id/title"
+                    android:maxLines="4"
+                    android:textAppearance="?android:attr/textAppearanceSmall"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?android:attr/listPreferredItemHeight"
+            android:paddingRight="?android:attr/scrollbarSize">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dip"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="6dip"
+                android:layout_marginTop="6dip"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+android:id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="marquee"
+                    android:fadingEdge="horizontal"
+                    android:singleLine="true"
+                    android:text="Taximeter"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_taximeter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@android:id/title"
+                    android:layout_below="@android:id/title"
+                    android:maxLines="4"
+                    android:textAppearance="?android:attr/textAppearanceSmall"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?android:attr/listPreferredItemHeight"
+            android:paddingRight="?android:attr/scrollbarSize">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dip"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="6dip"
+                android:layout_marginTop="6dip"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+android:id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="marquee"
+                    android:fadingEdge="horizontal"
+                    android:singleLine="true"
+                    android:text="Playlist URL"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_playlist_url"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@android:id/title"
+                    android:layout_below="@android:id/title"
+                    android:maxLines="4"
+                    android:textAppearance="?android:attr/textAppearanceSmall"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?android:attr/listPreferredItemHeight"
+            android:paddingRight="?android:attr/scrollbarSize">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dip"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="6dip"
+                android:layout_marginTop="6dip"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+android:id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="marquee"
+                    android:fadingEdge="horizontal"
+                    android:singleLine="true"
+                    android:text="Settings URL"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_settings_url"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@android:id/title"
+                    android:layout_below="@android:id/title"
+                    android:maxLines="4"
+                    android:textAppearance="?android:attr/textAppearanceSmall"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?android:attr/listPreferredItemHeight"
+            android:paddingRight="?android:attr/scrollbarSize">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dip"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="6dip"
+                android:layout_marginTop="6dip"
+                android:layout_weight="1">
+
+                <!--<TextView-->
+                    <!--android:id="@+android:id/title"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:ellipsize="marquee"-->
+                    <!--android:fadingEdge="horizontal"-->
+                    <!--android:singleLine="true"-->
+                    <!--android:text="News URL"-->
+                    <!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+                    <!--/>-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/txt_news_url"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_alignLeft="@android:id/title"-->
+                    <!--android:layout_below="@android:id/title"-->
+                    <!--android:maxLines="4"-->
+                    <!--android:textAppearance="?android:attr/textAppearanceSmall"/>-->
+
+                <TextView
+                    android:id="@+android:id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="marquee"
+                    android:fadingEdge="horizontal"
+                    android:singleLine="true"
+                    android:text="Menu URL"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_menu_url"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@android:id/title"
+                    android:layout_below="@android:id/title"
+                    android:maxLines="4"
+                    android:textAppearance="?android:attr/textAppearanceSmall"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?android:attr/listPreferredItemHeight"
+            android:paddingRight="?android:attr/scrollbarSize">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dip"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="6dip"
+                android:layout_marginTop="6dip"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+android:id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="marquee"
+                    android:fadingEdge="horizontal"
+                    android:singleLine="true"
+                    android:text="Upload Analytics URL"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_upload_analytics_url"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@android:id/title"
+                    android:layout_below="@android:id/title"
+                    android:maxLines="4"
+                    android:textAppearance="?android:attr/textAppearanceSmall"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?android:attr/listPreferredItemHeight"
+            android:paddingRight="?android:attr/scrollbarSize">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dip"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="6dip"
+                android:layout_marginTop="6dip"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+android:id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="marquee"
+                    android:fadingEdge="horizontal"
+                    android:maxLines="1"
+                    android:text="Upload Log URL"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_upload_log_url"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@android:id/title"
+                    android:layout_below="@android:id/title"
+                    android:maxLines="4"
+                    android:textAppearance="?android:attr/textAppearanceSmall"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?android:attr/listPreferredItemHeight"
+            android:paddingRight="?android:attr/scrollbarSize">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dip"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="6dip"
+                android:layout_marginTop="6dip"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+android:id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="marquee"
+                    android:fadingEdge="horizontal"
+                    android:maxLines="1"
+                    android:text="Version"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_version"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@android:id/title"
+                    android:layout_below="@android:id/title"
+                    android:maxLines="1"
+                    android:textAppearance="?android:attr/textAppearanceSmall"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

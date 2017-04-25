@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="?actionBarSize"
+    android:background="@drawable/shadow_top_to_bottom">
+
+    <ImageButton
+        android:id="@id/toolbar_action_item"
+        android:layout_width="?actionBarSize"
+        android:layout_height="?actionBarSize"
+        android:background="?selectableItemBackgroundBorderless"
+        android:src="@drawable/ic_navigation_arrow_back"
+        android:tint="@color/white"
+        tools:ignore="ContentDescription"/>
+
+</RelativeLayout>

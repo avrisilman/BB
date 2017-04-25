@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- *** Common IDs *** -->
+    <item name="toolbarContainer" type="id"/>
+    <item name="lyRefresh" type="id"/>
+    <item name="pbLoad" type="id"/>
+    <item name="lvContent" type="id"/>
+    <item name="imgContent" type="id"/>
+
+    <!--Container-->
+    <item name="main_container" type="id"/>
+    <item name="side_container" type="id"/>
+    <item name="bottom_container" type="id"/>
+    <item name="bottom_control" type="id"/>
+    <item name="hide_container" type="id"/>
+
+    <!--VideoView-->
+    <item name="fanatikVideoView" type="id"/>
+
+    <!--TextView-->
+    <item name="txtNoData" type="id"/>
+    <item name="txtTitle" type="id"/>
+    <item name="txtCaption" type="id"/>
+    <item name="txtTime" type="id"/>
+    <item name="txtContent" type="id"/>
+
+    <!--Toolbar-->
+    <item name="toolbar_action_item" type="id"/>
+    <item name="toolbar_dropdown_item" type="id"/>
+    <item name="toolbar_counter_page" type="id"/>
+    <item name="toolbar_counter_max" type="id"/>
+    <item name="toolbar_caption" type="id"/>
+
+    <!--Progressbar-->
+    <item name="pbNews" type="id"/>
+
+    <!--Control-->
+    <item name="btnVolumeUp" type="id"/>
+    <item name="btnVolumeDown" type="id"/>
+    <item name="seekBarVolume" type="id"/>
+    <item name="btnBrightnessDown" type="id"/>
+    <item name="btnBrightnessUp" type="id"/>
+    <item name="seekBarBrightness" type="id"/>
+
+    <!--Video-->
+    <item name="btnPlay" type="id"/>
+
+</resources>

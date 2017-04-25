@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextureView
+        android:id="@+id/taxivid_textureview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center" />
+
+    <View
+        android:id="@+id/taxivid_frame_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_window_background" />
+
+    <ProgressBar
+        android:id="@+id/taxivid_progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/taxivid_sound_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_gravity="bottom|left"
+        android:layout_margin="@dimen/view_padding_extra_wide"
+        android:alpha="0"
+        android:background="@drawable/bg_rounded_black_transparent"
+        android:drawableLeft="@drawable/ic_volume_off"
+        android:drawablePadding="@dimen/view_padding"
+        android:drawableStart="@drawable/ic_volume_off"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/view_padding"
+        android:paddingRight="@dimen/view_padding"
+        android:text="@string/tap_video_for_sound"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white" />
+
+    <FrameLayout
+        android:id="@+id/taxivid_cat_prompt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_black_transparant"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/taxivid_btn_calltoaction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/view_padding_wide"
+            tools:ignore="ContentDescription" />
+
+    </FrameLayout>
+
+</merge>

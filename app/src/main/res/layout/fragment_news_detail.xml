@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.domikado.itaxi.ui.common.SuperScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/view_padding_wide">
+
+            <ImageView
+                android:id="@id/imgContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_primary"
+                android:scaleType="centerCrop"/>
+
+            <TextView
+                android:id="@id/txtTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="19 January 2012"
+                android:layout_marginTop="@dimen/view_padding_wide"
+                android:layout_marginLeft="@dimen/view_padding_wide"
+                android:layout_marginRight="@dimen/view_padding_wide"/>
+
+            <TextView
+                android:id="@id/txtTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/view_padding_wide"
+                android:layout_marginRight="@dimen/view_padding_wide"
+                android:layout_marginTop="@dimen/view_padding"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                tools:text="Ini Judul"
+                android:textColor="@color/color_text_news"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@id/txtCaption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/view_padding_wide"
+                android:layout_marginRight="@dimen/view_padding_wide"
+                android:textColor="@color/blue"
+                tools:text="www.lompas.com"
+                android:layout_marginTop="@dimen/view_padding"
+                android:textAppearance="@style/TextAppearance.AppCompat.Caption"/>
+
+            <TextView
+                android:id="@id/txtContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/view_padding_wide"
+                android:layout_marginRight="@dimen/view_padding_wide"
+                android:layout_marginBottom="@dimen/view_padding_wide"
+                android:layout_marginTop="@dimen/view_padding_extra_wide"
+                tools:text="asdasdasdasdsadasdasd"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"/>
+
+        </LinearLayout>
+    </com.domikado.itaxi.ui.common.SuperScrollView>
+
+    <include layout="@layout/toolbar"/>
+
+</RelativeLayout>
